@@ -4,9 +4,8 @@
 ## Social Fine tunning for `Nemotron nano 3`/////////////////
 
 * Base model: `Nemotron nano 3`
-* Data-format: `RLHF`
 * Fine tunning methods: Supervised fine tunning `STF` and Direct preference optimization `DPO`
-* Quantization method: Activation aware weight quantization `AWQ`
+* Quantization method: Tensor RT
 * Inference engine: `vLLM`
 * Running hardware: Nvidia DGX Spark
 * Deployment hardware: Jetson Orin
@@ -14,7 +13,6 @@
 
 =============== ENVIRONMENT SNAPSHOT ================
 Timestamp: 2026-02-10
-User: Francisco Eduardo Tijerina Jr.
 Project: Robotics LLM Fine-Tuning (Mamba/Unsloth)
 
 [FRAMEWORK]
